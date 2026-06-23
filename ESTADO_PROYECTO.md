@@ -1,8 +1,8 @@
 # Estado del Proyecto - MiniMundo
 
-**Última actualización:** 15/06/2026
-**Estado General:** 🟢 En Iniciación
-**Porcentaje de Avance Total:** 10%
+**Última actualización:** 23/06/2026
+**Estado General:** 🟡 En Desarrollo
+**Porcentaje de Avance Total:** 20%
 
 ## Resumen de Funcionalidades
 | Funcionalidad | Estado | % Avance |
@@ -11,20 +11,20 @@
 | Reconocimiento de colores/formas | Pendiente | 0% |
 | Sistema de recompensas (Estrellas) | Pendiente | 0% |
 | Panel de progreso para padres | Pendiente | 0% |
-| API Express + MySQL | En proceso | 20% |
-| Contenedor Capacitor | Pendiente | 0% |
+| API Express + MySQL | En proceso | 40% |
+| Contenedor Capacitor | En proceso | 20% |
 
 ## Gestión de Sprints
 
-### Sprint 1: Cimentación (En curso)
+### Sprint 1: Cimentación (Completado)
 - [x] Definición de requisitos.
 - [x] Configuración inicial del repositorio.
-- [ ] Diseño del esquema de base de datos MySQL.
-- [ ] Mockups iniciales en Figma.
+- [x] Diseño del esquema de base de datos MySQL.
+- [x] Mockups iniciales en Figma.
 
-### Sprint 2: Core y Backend (Próximo)
-- [ ] Creación de servidores Express.
-- [ ] Estructura base de React + Tailwind.
+### Sprint 2: Core y Backend (En curso)
+- [x] Creación de servidores Express.
+- [x] Estructura base de React y Capacitor.
 - [ ] Implementación de lógica de sonidos iniciales.
 
 ## Notas
