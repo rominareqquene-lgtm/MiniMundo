@@ -1,5 +1,26 @@
 # Plan de Desarrollo - MiniMundo
 
+## Funcionalidades Clave de la Propuesta
+
+Alineados con la propuesta de la aplicación móvil para estudiantes, el desarrollo abarcará las siguientes funcionalidades principales:
+
+1. **Catálogo de Juegos Educativos Interactivos:**
+   - **Módulo de Letras y Abecedario:** Aprendizaje de vocales y consonantes mediante sonidos y trazados básicos.
+   - **Módulo de Números:** Identificación de números del 1 al 10 y conteo de objetos.
+   - **Módulo de Colores y Formas:** Reconocimiento visual e interacciones para arrastrar y soltar figuras geométricas según su forma y color.
+
+2. **Sistema de Recompensas y Motivación:**
+   - Obtención de "estrellas" y medallas virtuales al completar lecciones de manera exitosa para reforzar positivamente el progreso del niño.
+
+3. **Panel de Progreso para Padres:**
+   - Área restringida y protegida con PIN/Contraseña.
+   - Visualización de estadísticas de tiempo de uso, áreas de mayor interés y rendimiento del menor.
+
+4. **Gestión de Perfiles Múltiples:**
+   - Capacidad para que un padre o tutor agregue múltiples perfiles de niños dentro de la misma cuenta, permitiendo un seguimiento personalizado.
+
+5. **Entorno Seguro (Child-Safe):**
+   - Interfaz sin anuncios, sin compras integradas visibles y navegación bloqueada para evitar que el niño salga accidentalmente de los juegos.
 ## Cronograma de 11 Semanas Detallado
 
 A continuación, se detalla el plan de acción especificando las tareas técnicas relacionadas al Stack Tecnológico (React, Node, MySQL) y los entregables esperados a nivel de ficheros y arquitectura.
