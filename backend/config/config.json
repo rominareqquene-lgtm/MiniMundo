@@ -10,5 +10,9 @@
   "production": {
     "use_env_variable": "DB_URL",
     "dialect": "mysql"
+  },
+  "test_compile_only": {
+    "use_env_variable": "DB_URL",
+    "dialect": "mysql"
   }
 }

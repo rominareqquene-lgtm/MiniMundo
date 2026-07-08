@@ -14,7 +14,11 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Progress.init({
-    id: DataTypes.UUID,
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
+      primaryKey: true
+    },
     childId: DataTypes.UUID,
     activityId: DataTypes.UUID,
     starsEarned: DataTypes.INTEGER,

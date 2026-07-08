@@ -14,7 +14,11 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Activity.init({
-    id: DataTypes.UUID,
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
+      primaryKey: true
+    },
     name: DataTypes.STRING,
     type: DataTypes.STRING,
     difficulty: DataTypes.STRING,

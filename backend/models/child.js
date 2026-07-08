@@ -14,8 +14,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Child.init({
-    id: DataTypes.UUID,
-    userId: DataTypes.UUID,
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
+      primaryKey: true
+    },
+    userId: DataTypes.INTEGER,
     name: DataTypes.STRING,
     age: DataTypes.INTEGER,
     avatar: DataTypes.STRING
