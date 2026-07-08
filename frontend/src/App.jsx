@@ -7,6 +7,7 @@ import Register from './pages/Register';
 import ParentDashboard from './pages/ParentDashboard';
 import KidsHub from './pages/KidsHub';
 import GameLetters from './pages/GameLetters';
+import GameColors from './pages/GameColors';
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useContext(AuthContext);
@@ -38,6 +39,11 @@ function App() {
         <Route path="/games/letters" element={
           <ProtectedRoute>
             <GameLetters />
+          </ProtectedRoute>
+        } />
+        <Route path="/games/colors" element={
+          <ProtectedRoute>
+            <GameColors />
           </ProtectedRoute>
         } />
       </Routes>

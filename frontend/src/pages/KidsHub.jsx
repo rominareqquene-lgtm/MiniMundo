@@ -19,10 +19,12 @@ export default function KidsHub() {
           <h2 style={{ color: '#fff', fontSize: '2rem', margin: 0 }}>Los Números</h2>
         </div>
 
-        <div className="glass game-card" style={{ padding: '3rem', textAlign: 'center', background: '#9b59b6' }}>
-          <div style={{ fontSize: '5rem', marginBottom: '1rem' }}>🎨</div>
-          <h2 style={{ color: '#fff', fontSize: '2rem', margin: 0 }}>Colores</h2>
-        </div>
+        <Link to="/games/colors" style={{ textDecoration: 'none' }}>
+          <div className="glass game-card" style={{ padding: '3rem', textAlign: 'center', background: '#9b59b6' }}>
+            <div style={{ fontSize: '5rem', marginBottom: '1rem' }}>🎨</div>
+            <h2 style={{ color: '#fff', fontSize: '2rem', margin: 0 }}>Colores</h2>
+          </div>
+        </Link>
 
       </div>
     </div>
