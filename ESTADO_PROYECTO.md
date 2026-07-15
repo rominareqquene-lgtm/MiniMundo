@@ -1,6 +1,6 @@
 # Estado del Proyecto - MiniMundo
 
-**Última actualización:** 07/07/2026
+**Última actualización:** 14/07/2026
 **Estado General:** 🟢 MVP Completado (Fase 1 & 2)
 **Porcentaje de Avance Total:** 85%
 
@@ -22,10 +22,10 @@
 - [x] Diseño del esquema de base de datos MySQL.
 - [x] Mockups iniciales en Figma.
 
-### Sprint 2: Core y Backend (En curso)
+### Sprint 2: Core y Backend (Completado)
 - [x] Creación de servidores Express.
 - [x] Estructura base de React y Capacitor.
-- [ ] Implementación de lógica de sonidos iniciales.
+- [x] Implementación de lógica de sonidos iniciales.
 
 ## Notas
 - Se han subido los archivos base de la propuesta en formato PDF e imágenes de referencia al repositorio.
